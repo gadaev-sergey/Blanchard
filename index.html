@@ -1,0 +1,2452 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blanchard</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/choices.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/simplebar.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="header__navigation">
+      <div class="container header__container header__container--up">
+        <a class="logo logo-desktop">
+          <img src="icon/Лого.svg" alt="Blanchard художественная галерея">
+        </a>
+        <nav class="nav">
+          <ul class="list nav__list reset">
+            <li class="nav__item">
+              <a href="#about" class="nav__href color-white effect-nav effect-focus">О нас</a>
+            </li>
+            <li class="nav__item">
+              <a href="#gallery" class="nav__href color-white effect-nav effect-focus">Галерея</a>
+            </li>
+            <li class="nav__item">
+              <a href="#catalog" class="nav__href color-white effect-nav effect-focus">Каталог</a>
+            </li>
+            <li class="nav__item">
+              <a href="#events" class="nav__href color-white effect-nav effect-focus">События</a>
+            </li>
+            <li class="nav__item">
+              <a href="#editions" class="nav__href color-white effect-nav effect-focus">Издания</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__href color-white effect-nav effect-focus">Проекты</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="nav__href color-white effect-nav effect-focus">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="reset lk color-white effect-focus">
+          <svg class="lk__icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.12056 9.09278L6.13889 10.1111L9.75 6.5L6.13889 2.88889L5.12056 3.90722L6.98389 5.77778H0V7.22222H6.98389L5.12056 9.09278ZM11.5556 0H1.44444C0.642778 0 0 0.65 0 1.44444V4.33333H1.44444V1.44444H11.5556V11.5556H1.44444V8.66667H0V11.5556C0 12.35 0.642778 13 1.44444 13H11.5556C12.35 13 13 12.35 13 11.5556V1.44444C13 0.65 12.35 0 11.5556 0Z" fill="white"/>
+          </svg>            
+          Войти
+        </button>
+      </div>
+    </div>
+    <div class="header__search">
+      <div class="container header__container header__container--down">
+        <button class="burger reset">
+          <span class="burger__line"></span>
+        </button>
+        <a class="logo logo--mobile">
+          <img src="icon/logo-1024.svg" alt="Blanchard художественная галерея">
+        </a>
+        <ul class="down__list list reset">
+          <li class="down__item">
+            <button class="reset down__href color-white effect-focus">Реализм</button>
+            <div class="dropdown">
+              <div class="dropdown__box">
+                <div data-simplebar class="dropdown__scrolbar">
+                  <div class="dropdown__content dropdown__content--1" tabindex="0">
+                    <h4 class="reset dropdown__heading">Тинторетто</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--2" tabindex="0">
+                    <h4 class="reset dropdown__heading">Фридрих</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--3" tabindex="0">
+                    <h4 class="reset dropdown__heading">Леонардо</h4>
+                  </div>
+                  <!-- <div class="dropdown__content dropdown__content--4" tabindex="0">
+                    <h4 class="reset dropdown__heading">Верроккьо</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--1" tabindex="0">
+                    <h4 class="reset dropdown__heading">Тинторетто</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--2" tabindex="0">
+                    <h4 class="reset dropdown__heading">Фридрих</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--3" tabindex="0">
+                    <h4 class="reset dropdown__heading">Леонардо</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--4" tabindex="0">
+                    <h4 class="reset dropdown__heading">Верроккьо</h4>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="down__item">
+            <button class="reset down__href color-white effect-focus">Импрессионизм</button>
+            <div class="dropdown">
+              <div class="dropdown__box">
+                <div data-simplebar class="dropdown__scrolbar">
+                  <div class="dropdown__content dropdown__content--5" tabindex="0">
+                    <h4 class="reset dropdown__heading">Моне</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--6" tabindex="0">
+                    <h4 class="reset dropdown__heading">Сислей</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--7" tabindex="0">
+                    <h4 class="reset dropdown__heading">Мане</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--8" tabindex="0">
+                    <h4 class="reset dropdown__heading">Ренуар</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--5" tabindex="0">
+                    <h4 class="reset dropdown__heading">Моне</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--6" tabindex="0">
+                    <h4 class="reset dropdown__heading">Сислей</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--7" tabindex="0">
+                    <h4 class="reset dropdown__heading">Мане</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--8" tabindex="0">
+                    <h4 class="reset dropdown__heading">Ренуар</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="down__item">
+            <button class="reset down__href color-white effect-focus">Постимпрессионизм</button>
+            <div class="dropdown">
+              <div class="dropdown__box">
+                <div data-simplebar class="dropdown__scrolbar">
+                  <div class="dropdown__content dropdown__content--9" tabindex="0" tabindex="0">
+                    <h4 class="reset dropdown__heading">Ван Гог</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--10" tabindex="0" tabindex="0">
+                    <h4 class="reset dropdown__heading">Сезанн</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--11" tabindex="0" tabindex="0">
+                    <h4 class="reset dropdown__heading">Гоген</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--12" tabindex="0" tabindex="0">
+                    <h4 class="reset dropdown__heading">Сёра</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--9" tabindex="0" tabindex="0">
+                    <h4 class="reset dropdown__heading">Ван Гог</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--10" tabindex="0" tabindex="0">
+                    <h4 class="reset dropdown__heading">Сезанн</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--11" tabindex="0" tabindex="0">
+                    <h4 class="reset dropdown__heading">Гоген</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--12" tabindex="0" tabindex="0">
+                    <h4 class="reset dropdown__heading">Сёра</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="down__item">
+            <button class="reset down__href color-white effect-focus">Авангард</button>
+            <div class="dropdown">
+              <div class="dropdown__box">
+                <div data-simplebar class="dropdown__scrolbar">
+                  <div class="dropdown__content dropdown__content--13" tabindex="0">
+                    <h4 class="reset dropdown__heading">Кандинский</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--14" tabindex="0">
+                    <h4 class="reset dropdown__heading">Маринетти</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--15" tabindex="0">
+                    <h4 class="reset dropdown__heading">Малевич</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--16" tabindex="0">
+                    <h4 class="reset dropdown__heading">Пикассо</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--13" tabindex="0">
+                    <h4 class="reset dropdown__heading">Кандинский</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--14" tabindex="0">
+                    <h4 class="reset dropdown__heading">Маринетти</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--15" tabindex="0">
+                    <h4 class="reset dropdown__heading">Малевич</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--16" tabindex="0">
+                    <h4 class="reset dropdown__heading">Пикассо</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="down__item">
+            <button class="reset down__href color-white effect-focus">Футуризм</button>
+            <div class="dropdown">
+              <div class="dropdown__box">
+                <div data-simplebar class="dropdown__scrolbar">
+                  <div class="dropdown__content dropdown__content--17" tabindex="0">
+                    <h4 class="reset dropdown__heading">Карра</h4>
+                  </div>
+                  <!-- <div class="dropdown__content dropdown__content--18" tabindex="0">
+                    <h4 class="reset dropdown__heading">прателла</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--19" tabindex="0">
+                    <h4 class="reset dropdown__heading">Северини</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--20" tabindex="0">
+                    <h4 class="reset dropdown__heading">Балла</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--17" tabindex="0">
+                    <h4 class="reset dropdown__heading">Карра</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--18" tabindex="0">
+                    <h4 class="reset dropdown__heading">прателла</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--19" tabindex="0">
+                    <h4 class="reset dropdown__heading">Северини</h4>
+                  </div>
+                  <div class="dropdown__content dropdown__content--20" tabindex="0">
+                    <h4 class="reset dropdown__heading">Балла</h4>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <form id="form-search" class="down__search search" action="#">
+          <button id="search-btn" class="reset search__button">
+            <svg class="search__icon" width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="6.8678" height="1.71695" transform="matrix(-0.718931 0.695081 0.718931 0.695081 4.9375 15.6534)" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z" fill="white"/>
+            </svg>              
+          </button>
+          <input type="text" class="search__input" placeholder="Поиск по сайту">
+          <button class="search__btn-x">
+            <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.7">
+                <rect width="37.2801" height="3.72801" transform="matrix(0.707093 0.707121 -0.707093 0.707121 2.63867 0)" fill="white"/>
+                <rect width="37.2801" height="3.72801" transform="matrix(0.707093 -0.707121 0.707093 0.707121 -0.000976562 26.3615)" fill="white"/>
+              </g>
+            </svg>  
+          </button>          
+        </form>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="offer bot-pad">
+      <div class="container offer__container">
+        <div class="offer__box">
+          <h2 class="reset heading color-white">Прикоснитесь<br>к прекрасному</h2>
+          <p class="reset offer__text color-white">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий
+            создаёт предпосылки для новых предложений.</p>
+          <a href="#form-name" class="offer__buttom buttom color-white">Подписаться на рассылку</a>
+        </div>
+      </div>
+      <div class="offer-img"></div>
+    </section>
+    <section id="about" class="about bot-pad">
+      <div class="container">
+        <div class="box-info">
+          <h2 class="reset box-info__caption-2 caption-2 offer__title">О нас</h2>
+          <p class="reset box-info__text text">Ясность нашей позиции очевидна: семантический разбор внешних противодействий
+            однозначно определяет каждого участника как способного принимать собственные решения касаемо распределения
+            внутренних резервов и ресурсов. Не следует, однако, забывать, что высококачественный прототип будущего
+            проекта влечет за собой процесс внедрения и модернизации модели развития. Повседневная практика показывает,
+            что высокое качество позиционных исследований создаёт необходимость включения в производственный план целого
+            ряда внеочередных мероприятий с учётом комплекса распределения внутренних резервов и ресурсов. В рамках
+            спецификации современных стандартов, действия представителей оппозиции набирают популярность среди
+            определенных слоев населения, а значит, должны быть разоблачены.</p>
+        </div>
+      </div>
+    </section>
+    <section id="gallery" class="gallery bot-pad">
+      <div class="container container__gallery">
+        <div class="box-column-slider">
+          <div class="box-column-slider__left left-column fix-left">
+            <h2 class="reset left-column__caption-2 caption-2">Галерея</h2>
+            <div class="left-column__box">
+              <label class="left-column__filter">
+                <span class="left-column__titl">Фильтр:</span>
+                <select name="select" class="select">
+                  <option value="Живопись">Живопись</option>
+                  <option value="Рисунок">Рисунок</option>
+                  <option value="Скульптура">Скульптура</option>
+                </select>
+              </label>
+              <p class="reset left-column__text text">Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества
+                скачиваний <a href="#" class="link-text effect-focus color-sereny">авторизуйтесь</a>, либо воспользуйтесь лицензией.
+              </p>
+            </div>
+          </div>
+          <div class="box-column-slider__right right-column swiper-container--gallery fix-right">
+            <div class="right-column__switch switch">
+              <div class="switch__box">
+                <svg class="switch__arrow switch__arrow--left swiper-button-prev-gallery" tabindex="0" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="svg-circle" d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z" fill="#666666"/>
+                  <path class="svg-outline" d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z" stroke="transparent"/>
+                  <path class="svg-arrow" d="M16 20L11 15L16 10" stroke="white"/>
+                </svg>
+                <div class="switch__counter switch__counter--1 swiper-pagination"></div>
+                <svg class="switch__arrow switch__arrow--right swiper-button-next-gallery" tabindex="0" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="svg-circle" d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z" fill="#666666"/>
+                  <path class="svg-outline" d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z" stroke="transparent"/>
+                  <path class="svg-arrow" d="M14 20L19 15L14 10" stroke="white"/>
+                </svg>                  
+              </div>
+            </div>
+            <div class="right-column__slider slider-gallery swiper-wrapper">
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-1">
+                <img class="slider__img" src="img/Rectangle-1.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-4">
+                <img class="slider__img" src="img/Rectangle-4.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-2">
+                <img class="slider__img" src="img/Rectangle-2.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-5">
+                <img class="slider__img" src="img/Rectangle-5.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-3">
+                <img class="slider__img" src="img/Rectangle-3.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-6">
+                <img class="slider__img" src="img/Rectangle-6.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-7">
+                <img class="slider__img" src="img/Rectangle-7.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-10">
+                <img class="slider__img" src="img/Rectangle-10.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-8">
+                <img class="slider__img" src="img/Rectangle-8.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-11">
+                <img class="slider__img" src="img/Rectangle-11.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-9">
+                <img class="slider__img" src="img/Rectangle-9.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-12">
+                <img class="slider__img" src="img/Rectangle-12.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-13">
+                <img class="slider__img" src="img/Rectangle-13.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-16">
+                <img class="slider__img" src="img/Rectangle-16.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-14">
+                <img class="slider__img" src="img/Rectangle-14.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-17">
+                <img class="slider__img" src="img/Rectangle-17.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-15">
+                <img class="slider__img" src="img/Rectangle-15.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-18">
+                <img class="slider__img" src="img/Rectangle-18.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-19">
+                <img class="slider__img" src="img/Rectangle-19.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-22">
+                <img class="slider__img" src="img/Rectangle-22.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-20">
+                <img class="slider__img" src="img/Rectangle-20.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-23">
+                <img class="slider__img" src="img/Rectangle-23.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-21">
+                <img class="slider__img" src="img/Rectangle-21.jpg" alt="Картина" tabindex="0">
+              </div>
+              <div class="slider__box-img swiper-slide" data-path="gallery-content-24">
+                <img class="slider__img" src="img/Rectangle-24.jpg" alt="Картина" tabindex="0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-1">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-1.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930&#8209;1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-2">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/po-pup__Rectangle-93.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-3">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-3.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-4">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-4.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-5">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-5.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-6">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-6.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-7">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-7.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-8">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-8.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-9">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-9.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-10">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-10.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-11">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-11.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-12">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-12.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-13">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-13.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-14">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-14.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-15">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-15.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-16">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-16.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-17">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-17.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-18">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-18.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-19">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-19.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-20">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-20.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-21">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-21.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-22">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-22.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-23">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-23.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="po-pup" data-target="gallery-content-24">
+        <div class="po-pup__body">
+          <img class="po-pup__img" src="img/Rectangle-24.jpg" alt="Картина">
+          <div class="po-pup__box">
+            <button class="po-pup__btn reset">
+              <svg class="po-pup__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666641 15.3043L15.3333 3.17761e-05L16 0.695679L1.33331 15.9999L0.666641 15.3043Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.666725 -2.96187e-06L15.3334 15.3042L14.6667 15.9999L5.76143e-05 0.695644L0.666725 -2.96187e-06Z" fill="black"/>
+              </svg>                
+            </button>
+            <h3 class="po-pup__user reset caption-3">Казимир Малевич</h3>
+            <span class="po-pup__title">“Женщина с граблями”</span>
+            <span class="po-pup__meta">1931-1932</span>
+            <p class="po-pup__text reset text">
+              Картина из второй серии крестьянского цикла работ Казимира Малевича. Художник принялся за её создание в 1930-1931 годах, после того, как первый цикл был утерян после Берлинской и Варшавской выставок в 1927 году.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="catalog" class="catalog">
+      <div class="container catalog__container">
+        <div class="box-info">
+          <div class="catalog__caption-2-box">
+            <h2 class="reset box-info__caption-2 caption-2 catalog__title">Каталог</h2>
+            <ul class="countries list reset">
+              <li class="countries__item">
+                <button data-path="one" class="reset countries__button countries__button--1"></button>
+              </li>
+              <li class="countries__item">
+                <button data-path="two" class="reset countries__button countries__button--2"></button>
+              </li>
+              <li class="countries__item">
+                <button data-path="three" class="reset countries__button countries__button--3 countries__button-active"></button>
+              </li>
+              <li class="countries__item">
+                <button data-path="four" class="reset countries__button countries__button--4"></button>
+              </li>
+              <li class="countries__item">
+                <button data-path="five" class="reset countries__button countries__button--5"></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="box-tab">
+          <div data-target="one" class="tab">
+            <p class="reset tab__text text">Акционеры крупнейших компаний, которые представляют собой яркий пример
+              континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы
+              этики и морали. Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное производство,
+              нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть функционально разнесены на
+              независимые элементы. </p>
+            <div class="two-column">
+              <div class="two-column__left" data-target="1-Бартелеми д’Эйк">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left two-column__left-active" data-target="1-Гийом Домбе">
+                <img class="two-column__portret" src="img/Гийом-Домбе.jpg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Гийом Домбе</h3>
+                  <div class="artist-box__data">1414 — 1461</div>
+                  <p class="reset artist-box__text text">Первый архивный документ, в котором упоминается имя Домбе, датирован 1414 годом, и сообщает, что Гийому было поручено исполнение витражей для папского дворца в Авиньоне. Из документов известно, что у Гийома Домбе была успешная мастерская, в которой работали трое его сыновей — Обри, Жан и Жак, а также зять — художник из Турне Арноле де Катц (известен по документам в 1430—1434 годах), который женился на дочери Гийома — Пейроннетт, и в 1430 году подписал контракт с его мастерской на три года.</p>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="1-Дюве, Жан">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="1-Жакмар де Эсден">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="1-Мармион, Симон">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="1-Перреаль, Жан">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__right">
+                <div class="accordion">
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1400 по 1499 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>                    
+                  <div>
+                    <ul class="column list">
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="1-Бартелеми д’Эйк">Бартелеми д’Эйк</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus column__button column__button-active effect-focus-active" data-path="1-Гийом Домбе">Гийом Домбе</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="1-Дюве, Жан">Дюве, Жан</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="1-Жакмар де Эсден">Жакмар де Эсден</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="1-Мармион, Симон">Мармион, Симон</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="1-Перреаль, Жан">Перреаль, Жан</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1500 по 1599 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1600 по 1699 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1700 по 1799 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1800 по 1899 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1900 по 1999 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 2000 г.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-target="two" class="tab">
+            <p class="reset tab__text text">Акционеры крупнейших компаний, которые представляют собой яркий пример
+              континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы
+              этики и морали. Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное производство,
+              нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть функционально разнесены на
+              независимые элементы. </p>
+            <div class="two-column">
+              <div class="two-column__left" data-target="2-Бургкмайр, Ханс">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left two-column__left-active" data-target="2-Вольфганг Катцхаймер">
+                <img class="two-column__portret" src="img/Вольфганг-Катцхаймер.jpg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Вольфганг Катцхаймер</h3>
+                  <div class="artist-box__data">1450 — 1508</div>
+                  <p class="reset artist-box__text text">Немецкий художник, график, резчик по дереву. О Катцхаймере известно мало. Неизвестно где он учился, но, по крайней мере, с 1465 года он уже работал в художественной мастерской бамбергского епископства. Его картина 1483 года «Проводы апостола» (Verabschiedung der Apostel) считается самым старым видом на Бамберг. На заднем плане панорамы видны Альтенбург, Монастырь Святого Михаила, Бамбергский собор. Экспонируется картина в историческом музее Бамберга, который находится в старой епископской резиденции.</p>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="2-Виц, Конрад">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="2-Вольгемут, Михаэль">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="2-Дюрер, Альбрехт">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__right">
+                <div class="accordion">
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1400 по 1499 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>                    
+                  <div>
+                    <ul class="column list">
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="2-Бургкмайр, Ханс">Бургкмайр, Ханс</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus column__button effect-focus-active column__button-active" data-path="2-Вольфганг Катцхаймер">Вольфганг Катцхаймер</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="2-Виц, Конрад">Виц, Конрад</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="2-Вольгемут, Михаэль">Вольгемут, Михаэль</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="2-Дюрер, Альбрехт">Дюрер, Альбрехт</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1500 по 1599 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1600 по 1699 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1700 по 1799 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1800 по 1899 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1900 по 1999 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 2000 г.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-target="three" class="tab tab-content-active">
+            <p class="reset tab__text text">Акционеры крупнейших компаний, которые представляют собой яркий пример
+              континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы
+              этики и морали. Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное производство,
+              нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть функционально разнесены на
+              независимые элементы. </p>
+            <div class="two-column">
+              <div class="two-column__left" data-target="3Бенедетто ди Биндо">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Бергоньоне, Амброджо">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Биссоло, Франческо">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Больтраффио, Джованни">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Бонсиньори, Франческо">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Боттичини, Рафаэлло">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Брамантино">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Бреа, Людовико">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Бьяджо д’Антонио Туччи">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Веккьетта">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Андреа Верроккьо">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left two-column__left-active" data-target="3Доменико Гирландайо">
+                <img class="two-column__portret" src="img/catalog-1.jpg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Доменико Гирландайо</h3>
+                  <div class="artist-box__data">2 июня 1448 — 11 января 1494</div>
+                  <p class="reset artist-box__text text">Один из ведущих флорентийских художников Кватроченто, основатель художественной
+                    династии, которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где юный
+                    Микеланджело в течение года овладевал профессиональными навыками. Автор фресковых циклов, в которых
+                    выпукло, со всевозможными подробностями показана домашняя жизнь библейских персонажей (в их роли
+                    выступают знатные граждане Флоренции в костюмах того времени).</p>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Беноццо Гоццоли">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Граначчи, Франческо">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Грегорио ди Чекко">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Джованни да Удине">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Джованни ди Паоло">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Джорджоне">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Парентино, Бернардо">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Пезеллино">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Пьетро Перуджино">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Перуцци, Бальдассаре">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Пизанелло">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="3Пинтуриккьо">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__right">
+                <div class="accordion">
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1400 по 1499 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>                    
+                  <div>
+                    <ul class="column list">
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Бенедетто ди Биндо">Бенедетто ди Биндо</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Бергоньоне, Амброджо">Бергоньоне, Амброджо</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Биссоло, Франческо">Биссоло, Франческо</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Больтраффио, Джованни">Больтраффио, Джованни</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Бонсиньори, Франческо">Бонсиньори, Франческо</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Боттичини, Рафаэлло">Боттичини, Рафаэлло</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Брамантино">Брамантино</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Бреа, Людовико">Бреа, Людовико</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Бьяджо д’Антонио Туччи">Бьяджо д’Антонио Туччи</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Веккьетта">Веккьетта</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Андреа Верроккьо">Андреа Верроккьо</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus column__button column__button-active effect-focus-active" data-path="3Доменико Гирландайо">Доменико Гирландайо</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Беноццо Гоццоли">Беноццо Гоццоли</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Граначчи, Франческо">Граначчи, Франческо</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Грегорио ди Чекко">Грегорио ди Чекко</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Джованни да Удине">Джованни да Удине</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Джованни ди Паоло">Джованни ди Паоло</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Джорджоне">Джорджоне</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Парентино, Бернардо">Парентино, Бернардо</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Пезеллино">Пезеллино</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Пьетро Перуджино">Пьетро Перуджино</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Перуцци, Бальдассаре">Перуцци, Бальдассаре</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Пизанелло">Пизанелло</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="3Пинтуриккьо">Пинтуриккьо</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1500 по 1599 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1600 по 1699 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1700 по 1799 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1800 по 1899 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1900 по 1999 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 2000 г.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-target="four" class="tab">
+            <p class="reset tab__text text">Акционеры крупнейших компаний, которые представляют собой яркий пример
+              континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы
+              этики и морали. Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное производство,
+              нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть функционально разнесены на
+              независимые элементы. </p>
+            <div class="two-column">
+              <div class="two-column__left" data-target="4-Амвросий">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left two-column__left-active" data-target="4-Андре́й Рублёв">
+                <img class="two-column__portret" src="img/Андре́й-Рублёв.jpg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Андре́й Рублёв</h3>
+                  <div class="artist-box__data">около 1360 —  17 октября 1428 или 29 января 1430</div>
+                  <p class="reset artist-box__text text">Биографические сведения о Рублёве крайне скудны: скорее всего, родился он в Московском княжестве (по другим сведениям — в Великом Новгороде), вероятно, в конце 1340-х годов, но не позднее 1370 года. Из-за прозвища «Рублёв» (от слова «рубель» — инструмент для накатки кож) предполагают, что он мог происходить из ремесленной семьи. Монашеский постриг принял, вероятно, незадолго до 1405 года в Андрониковом монастыре при Андронике Московском с именем Андрей.</p>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="4-Дионисий">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="4-Прохор с Городца">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__right">
+                <div class="accordion">
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1400 по 1499 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>                    
+                  <div>
+                    <ul class="column list">
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="4-Амвросий">Амвросий</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus column__button column__button-active effect-focus-active" data-path="4-Андре́й Рублёв">Андре́й Рублёв</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="4-Дионисий">Дионисий</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="4-Прохор с Городца">Прохор с Городца</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1500 по 1599 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1600 по 1699 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1700 по 1799 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1800 по 1899 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1900 по 1999 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 2000 г.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-target="five" class="tab">
+            <p class="reset tab__text text">Акционеры крупнейших компаний, которые представляют собой яркий пример
+              континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы
+              этики и морали. Являясь всего лишь частью общей картины, стремящиеся вытеснить традиционное производство,
+              нанотехнологии и по сей день остаются уделом либералов, которые жаждут быть функционально разнесены на
+              независимые элементы. </p>
+            <div class="two-column">
+              <div class="two-column__left" data-target="5-Боршграв, Изабель де">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left two-column__left-active" data-target="5-Ян ван Эйк">
+                <img class="two-column__portret" src="img/Ян-ван-Эйк.jpg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Ян ван Эйк</h3>
+                  <div class="artist-box__data">Умер в 1441</div>
+                  <p class="reset artist-box__text text">Ван Эйк считался изобретателем масляных красок, хотя на самом деле он лишь усовершенствовал их. Однако благодаря ему масло получило всеобщее признание. В течение 16 лет художник был придворным живописцем герцога Бургундского Филиппа Доброго, господина и вассала также связывала крепкая дружба, герцог принимал живое участие в судьбе художника, а ван Эйк стал посредником в женитьбе господина.</p>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="5-Бош, Анна">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__left" data-target="5-Брёйкере, Берлинде де">
+                <img class="two-column__portret" src="icon/x-user.svg" alt="Портрет">
+                <div class="artist-box">
+                  <h3 class="reset artist-box__caption-3 caption-3">Что мы о нём знаем?</h3>
+                  <p class="reset artist-box__text text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
+                  <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                </div>
+              </div>
+              <div class="two-column__right">
+                <div class="accordion">
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1400 по 1499 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>                    
+                  <div>
+                    <ul class="column list">
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="5-Боршграв, Изабель де">Боршграв, Изабель де</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus column__button-active column__button effect-focus-active" data-path="5-Ян ван Эйк">Ян ван Эйк</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="5-Бош, Анна">Бош, Анна</button>
+                      </li>
+                      <li class="column__line">
+                        <button class="reset column__button effect-focus" data-path="5-Брёйкере, Берлинде де">Брёйкере, Берлинде де</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1500 по 1599 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1600 по 1699 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1700 по 1799 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1800 по 1899 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 1900 по 1999 гг.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                  <div class="accordion__line">
+                    <h3 class="reset accordion__header">С 2000 г.</h3>
+                    <svg class="accordion-svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path class="accordion-svg__circle" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" fill="#ECECEC"/>
+                      <path class="accordion-svg__outline" d="M50 25C50 38.8071 38.8071 50 25 50C11.1929 50 0 38.8071 0 25C0 11.1929 11.1929 0 25 0C38.8071 0 50 11.1929 50 25Z" stroke-width="" stroke="transperent" />
+                      <path class="accordion-svg__aroow" d="M33.3333 23.3333L25 31.6667L16.6667 23.3333" stroke="black"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="column column-x">
+                      <h4 class="reset column-x__titl">Здесь пока пусто</h4>
+                      <p class="reset text column-x__desc">А в галерее вы всегда сможете найти что-то интересное для себя</p>
+                      <a href="#gallery" class="link-text effect-focus color-sereny x-btn">В галерею</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="events" class="events bot-pad">
+      <div class="container">
+        <h2 class="reset caption-2 events__title">События</h2>
+        <div id="all-events" class="swiper-container--events" data-mobile="false">
+          <div class="swiper-wraper--events all-events">
+            <div class="all-events__box box-event swiper-slide--events">
+              <img class="box-events__up-bg" src="img/event-1.jpg" alt="черно-белый рисунок штрихами">
+              <div class="box-event__info">
+                <div class="box-event__subtitle box-event__subtitle--one">Музей им. Щусева</div>
+                <div class="box-event__subtitle">с 20 марта по 30 апреля</div>
+              </div>
+              <div class="box-event__content">
+                <h3 class="reset box-event__caption-3 caption-3">Книжная гравюра в живом восприятии</h3>
+                <p class="reset box-event__text text">Один из ведущих флорентийских художников Кватроченто, основатель художественной
+                  династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+                <a href="#" class="box-event__href effect-focus">Подробнее</a>
+              </div>
+            </div>
+            <div class="all-events__box box-event swiper-slide--events">
+              <img src="img/event-2.jpg" alt="Двое мужчин в очках на лекции" class="box-events__up-bg">
+              <div class="box-event__info">
+                <div class="box-event__subtitle box-event__subtitle--one">ММОМА</div>
+                <div class="box-event__subtitle">24 марта 19:00</div>
+              </div>
+              <div class="box-event__content">
+                <h3 class="reset box-event__caption-3 caption-3">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h3>
+                <p class="reset box-event__text text">Высокий уровень вовлечения представителей целевой аудитории является четким
+                  доказательством простого факта.</p>
+                <a href="#" class="box-event__href effect-focus">Подробнее</a>
+              </div>
+            </div>
+            <div class="all-events__box box-event swiper-slide--events">
+              <img src="img/event-3.jpg" alt="Вычтовочный зал" class="box-events__up-bg">
+              <div class="box-event__info">
+                <div class="box-event__subtitle box-event__subtitle--one">Еврейский музей</div>
+                <div class="box-event__subtitle">с 31 марта по 21 апреля</div>
+              </div>
+              <div class="box-event__content">
+                <h3 class="reset box-event__caption-3 caption-3">Выставка «Формация 2020»</h3>
+                <p class="reset box-event__text text">Идейные соображения высшего порядка, а также современная методология разработки
+                  играет важную роль в формировании глубокомысленных рассуждений.</p>
+                <a href="#" class="box-event__href effect-focus">Подробнее</a>
+              </div>
+            </div>
+            <div class="all-events__box box-event swiper-slide--events">
+              <img src="img/event-4.jpg" alt="Изображение международного искуства" class="box-events__up-bg">
+              <div class="box-event__info">
+                <div class="box-event__subtitle box-event__subtitle--one">Третьяковка на Крымском валу</div>
+                <div class="box-event__subtitle">с 30 марта по 30 апреля</div>
+              </div>
+              <div class="box-event__content">
+                <h3 class="reset box-event__caption-3 caption-3">XXIV Международная биеннале молодого искусства</h3>
+                <p class="reset box-event__text text">Внезапно, реплицированные с зарубежных источников, современные исследования.</p>
+                <a href="#" class="box-event__href effect-focus">Подробнее</a>
+              </div>
+            </div>
+            <div class="all-events__box box-event swiper-slide--events">
+              <img src="img/event-5.jpg" alt="Фото фальги" class="box-events__up-bg">
+              <div class="box-event__info">
+                <div class="box-event__subtitle box-event__subtitle--one">ММАМ</div>
+                <div class="box-event__subtitle">с 8 апреля по 20 мая</div>
+              </div>
+              <div class="box-event__content">
+                <h3 class="reset box-event__caption-3 caption-3">Джон Винзор. Фотографии из серии «Метафора серебра»</h3>
+                <p class="reset box-event__text text">Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо.</p>
+                <a href="#" class="box-event__href effect-focus">Подробнее</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination--events"></div>
+        </div>
+        <button id="events__buttom" class="reset events__buttom buttom">Все события</button>
+      </div>
+    </section>
+    <section id="editions" class="editions gallery bot-pad">
+      <div class="container container__gallery editions__container">
+        <div class="box-column-slider box-column-slider--editions">
+          <div class="box-column-slider__left left-column editions__left-column fix-left">
+            <h2 class="reset left-column__caption-2 caption-2 left-column__caption-2--editions">Издания</h2>
+            <div class="left-column__box">
+              <div class="checkbox checkbox--mobile checkbox--mobile-close">
+                <div class="checkbox__titl">Категории</div>
+                <ul class="checkbox__list list reset">
+                  <li class="checkbox__item" data-target="check-1">
+                    <label for="check-1" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-1" data-path="check-1">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Бестселлеры</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-2">
+                    <label for="check-2" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-2" data-path="check-2">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Искуcство</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-3">
+                    <label for="check-3" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-3" data-path="check-3">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Архитектура</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-4">
+                    <label for="check-4" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-4" data-path="check-4">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Дизайн</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-5">
+                    <label for="check-5" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-5" data-path="check-5">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Мода</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-6">
+                    <label for="check-6" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-6" data-path="check-6">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Детям</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-7">
+                    <label for="check-7" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-7" data-path="check-7">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Художественная литература</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-8">
+                    <label for="check-8" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-8" data-path="check-8">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Публицистика</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-9">
+                    <label for="check-9" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-9" data-path="check-9">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Путеводители</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-10">
+                    <label for="check-10" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-10" data-path="check-10">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Философия</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-11">
+                    <label for="check-11" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-11" data-path="check-11">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Учебная литература</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                  <li class="checkbox__item" data-target="check-12">
+                    <label for="check-12" class="checkbox__label">
+                      <input type="checkbox" class="checkbox__input" name="check" id="check-12" data-path="check-12">
+                      <span class="checkbox__mark"></span>
+                      <span class="checkbox__text">Журналы и газеты</span>
+                    </label>
+                    <button class="checkbox__btn reset">
+                      <svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.501981 11.4789L11.502 0.000216305L12.002 0.521973L1.00198 12.0006L0.501981 11.4789Z" fill="#C283F3"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.500026 9.03416e-05L11.5 11.4787L11 12.0005L2.74963e-05 0.521847L0.500026 9.03416e-05Z" fill="#C283F3"/>
+                      </svg>                        
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <div class="price">
+                <div class="price__titl">Цена</div>
+                <div class="price__box">
+                  <label class="price__label">
+                    <span class="price__text">От</span>
+                    <input type="text" class="price__input" value="50">
+                  </label>
+                  <label class="price__label">
+                    <span class="price__text">до</span>
+                    <input type="text" class="price__input" value="25 000">
+                  </label>
+                  <span class="price__text">руб.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-column-slider__right box-column-slider__right--editions right-column swiper-container swiper-container--edition fix-right" data-edition="false">
+            <div class="right-column__switch right-column__switch--editions switch">
+              <div class="switch__box editions__switch__box">
+                <svg class="switch__arrow switch__arrow--left swiper-button-prev swiper-button-new" tabindex="0" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="svg-circle" d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z" fill="#666666"/>
+                  <path class="svg-outline" d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z" stroke="transparent"/>
+                  <path class="svg-arrow" d="M16 20L11 15L16 10" stroke="white"/>
+                </svg>
+                <div class="switch__counter switch__counter--1 swiper-pagination"></div>
+                <svg class="switch__arrow switch__arrow--right swiper-button-next swiper-button-new" tabindex="0" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="svg-circle" d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z" fill="#666666"/>
+                  <path class="svg-outline" d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z" stroke="transparent"/>
+                  <path class="svg-arrow" d="M14 20L19 15L14 10" stroke="white"/>
+                </svg> 
+              </div>
+            </div>
+            <div class="right-column__slider right-column__slider--edition swiper-wrapper">
+              <div class="edition-box swiper-slide">
+                <img src="img/editions-img1.jpg" alt="Постер" class="edition-box__img edition-box__img--1">
+                <div class="edition-box__text">
+                  <div class="edition-box__title">
+                    <h3 class="reset edition-box__caption-3">Искусcтво цвета</h3>
+                    <div class="edition-box__user">Иттен, Иоханнес</div>
+                  </div>
+                  <div class="edition-box__price">620 руб</div>
+                </div>
+                <a href="#" class="edition-box__buttom buttom">Заказать</a>
+              </div>
+              <div class="edition-box swiper-slide">
+                <img src="img/editions-img2.jpg" alt="Постер" class="edition-box__img edition-box__img--2">
+                <div class="edition-box__text">
+                  <div class="edition-box__title">
+                    <h3 class="reset edition-box__caption-3">Типографика</h3>
+                    <div class="edition-box__user">Рудер, Эмиль</div>
+                  </div>
+                  <div class="edition-box__price">2 450 руб</div>
+                </div>
+                <a href="#" class="edition-box__buttom buttom">Заказать</a>
+              </div>
+              <div class="edition-box swiper-slide">
+                <img src="img/editions-img3.jpg" alt="Постер" class="edition-box__img edition-box__img--3">
+                <div class="edition-box__text">
+                  <div class="edition-box__title">
+                    <h3 class="reset edition-box__caption-3">Книга про буквы</h3>
+                    <div class="edition-box__user">Гордон, Юрий</div>
+                  </div>
+                  <div class="edition-box__price">2 200 руб</div>
+                </div>
+                <a href="#" class="edition-box__buttom buttom">Заказать</a>
+              </div>
+              <div class="edition-box swiper-slide">
+                <img src="img/editions-img4.jpg" alt="Постер" class="edition-box__img edition-box__img--1">
+                <div class="edition-box__text">
+                  <div class="edition-box__title">
+                    <h3 class="reset edition-box__caption-3">Николай Ильин</h3>
+                    <div class="edition-box__user">Кричевский, Владимир</div>
+                  </div>
+                  <div class="edition-box__price">1 100 руб</div>
+                </div>
+                <a href="#" class="edition-box__buttom buttom">Заказать</a>
+              </div>
+              <div class="edition-box swiper-slide">
+                <img src="img/editions-img5.jpg" alt="Постер" class="edition-box__img edition-box__img--2">
+                <div class="edition-box__text">
+                  <div class="edition-box__title">
+                    <h3 class="reset edition-box__caption-3">Модульные сетки в граф...</h3>
+                    <div class="edition-box__user">Мюллер-Брокманн, Йозеф</div>
+                  </div>
+                  <div class="edition-box__price">1 450 руб</div>
+                </div>
+                <a href="#" class="edition-box__buttom buttom">Заказать</a>
+              </div>
+              <div class="edition-box swiper-slide">
+                <img src="img/editions-img6.jpg" alt="Постер" class="edition-box__img edition-box__img--3">
+                <div class="edition-box__text">
+                  <div class="edition-box__title">
+                    <h3 class="reset edition-box__caption-3">Эволюция графических ст...</h3>
+                    <div class="edition-box__user">Хеллер, Чваст</div>
+                  </div>
+                  <div class="edition-box__price">3 200 руб</div>
+                </div>
+                <a href="#" class="edition-box__buttom buttom">Заказать</a>
+              </div>
+              <div class="edition-box swiper-slide">
+                <img src="img/editions-img7.jpg" alt="Постер" class="edition-box__img edition-box__img--1">
+                <div class="edition-box__text">
+                  <div class="edition-box__title">
+                    <h3 class="reset edition-box__caption-3">Искусство и визуальное в...</h3>
+                    <div class="edition-box__user">Арнхейм, Рудольф</div>
+                  </div>
+                  <div class="edition-box__price">2 200 руб</div>
+                </div>
+                <a href="#" class="edition-box__buttom buttom">Заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects bot-pad">
+      <div class="container">
+        <div class="box-info box-info--projects">
+          <h2 class="reset box-info__caption-2 caption-2 projects__title">Проекты</h2>
+          <p class="reset box-info__text box-info__text--projects text">Предварительные выводы: постоянное информационно-пропагандистское обеспечение нашей
+            деятельности однозначно фиксирует необходимость своевременного выполнения сверхзадачи. А ещё независимые
+            государства смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их
+            статус бесполезности. Прежде всего, постоянное информационно&#8209;пропагандистское
+            <span class="tooltip tooltip-1" tabindex="0">
+              <svg class="tooltip__icon" aria-describedby="tooltip" width="16" height="16" viewBox="0 0 16 16" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8Z" stroke="#9D5CD0"/>
+                <path class="tooltip__icon-i" d="M7.26154 6.4551H8.73846V13H7.26154V6.4551ZM8 4.90259C7.71282 4.90259 7.4718 4.81126 7.27692 4.62861C7.09231 4.44597 7 4.22273 7 3.9589C7 3.69508 7.09231 3.47184 7.27692 3.28919C7.4718 3.0964 7.71282 3 8 3C8.28718 3 8.52308 3.09132 8.70769 3.27397C8.90256 3.44647 9 3.66464 9 3.92846C9 4.20243 8.90256 4.43582 8.70769 4.62861C8.52308 4.81126 8.28718 4.90259 8 4.90259Z" fill="black"/>
+              </svg>                               
+            </span>
+            обеспечение нашей деятельности
+            однозначно фиксирует необходимость экономической целесообразности принимаемых решений. И нет сомнений, что
+            действия представителей оппозиции могут быть рассмотрены
+            <span class="tooltip tooltip-2" tabindex="0">
+              <svg class="tooltip__icon" aria-describedby="tooltip" width="16" height="16" viewBox="0 0 16 16" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8Z" stroke="#9D5CD0"/>
+                <path class="tooltip__icon-i" d="M7.26154 6.4551H8.73846V13H7.26154V6.4551ZM8 4.90259C7.71282 4.90259 7.4718 4.81126 7.27692 4.62861C7.09231 4.44597 7 4.22273 7 3.9589C7 3.69508 7.09231 3.47184 7.27692 3.28919C7.4718 3.0964 7.71282 3 8 3C8.28718 3 8.52308 3.09132 8.70769 3.27397C8.90256 3.44647 9 3.66464 9 3.92846C9 4.20243 8.90256 4.43582 8.70769 4.62861C8.52308 4.81126 8.28718 4.90259 8 4.90259Z" fill="black"/>
+              </svg>
+            </span>
+            исключительно в разрезе маркетинговых и финансовых
+            <span class="tooltip tooltip-3" tabindex="0">
+              <svg class="tooltip__icon" aria-describedby="tooltip" width="16" height="16" viewBox="0 0 16 16" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.5 8C15.5 12.1421 12.1421 15.5 8 15.5C3.85786 15.5 0.5 12.1421 0.5 8C0.5 3.85786 3.85786 0.5 8 0.5C12.1421 0.5 15.5 3.85786 15.5 8Z" stroke="#9D5CD0"/>
+                <path class="tooltip__icon-i" d="M7.26154 6.4551H8.73846V13H7.26154V6.4551ZM8 4.90259C7.71282 4.90259 7.4718 4.81126 7.27692 4.62861C7.09231 4.44597 7 4.22273 7 3.9589C7 3.69508 7.09231 3.47184 7.27692 3.28919C7.4718 3.0964 7.71282 3 8 3C8.28718 3 8.52308 3.09132 8.70769 3.27397C8.90256 3.44647 9 3.66464 9 3.92846C9 4.20243 8.90256 4.43582 8.70769 4.62861C8.52308 4.81126 8.28718 4.90259 8 4.90259Z" fill="black"/>
+              </svg> 
+            </span>
+            предпосылок. Банальные, но неопровержимые выводы, а также представители современных социальных резервов
+            призывают нас к новым свершениям, которые, в свою очередь, должны быть смешаны с не уникальными данными до
+            степени совершенной неузнаваемости. Подробнее: <a href="#" class="link-text effect-focus color-sereny">blanchard-art.ru/projects/about</a></p>
+        </div>
+        <h3 class="reset caption-3 caption-3--projects">Партнёры проектов:</h3>
+        <div class="box-swiper">
+          <div class="swiper-container--projects">
+            <div class="swiper-wrapper swiper-wrapper--projects">
+              <a href="#" class="swiper-slide slider-frend">
+                <img src="img/Group-73.jpg" alt="Логотип партнеров" class="slide-1 slider--projects">
+              </a>
+              <a href="#" class="swiper-slide slider-frend">
+                <img src="img/Group-72.jpg" alt="Логотип партнеров" class="slide-2 slider--projects">
+              </a>
+              <a href="#" class="swiper-slide slider-frend">
+                <img src="img/Group-37.jpg" alt="Логотип партнеров" class="slide-3 slider--projects">
+              </a>
+              <a href="#" class="swiper-slide slider-frend">
+                <img src="img/Group-22.jpg" alt="Логотип партнеров" class="slide-4 slider--projects">
+              </a>
+              <a href="#" class="swiper-slide slider-frend">
+                <img src="img/Group-60.jpg" alt="Логотип партнеров" class="slide-5 slider--projects">
+              </a>
+              <a href="#" class="swiper-slide slider-frend">
+                <img src="img/Group-23.jpg" alt="Логотип партнеров" class="slide-6 slider--projects">
+              </a>
+              <a href="#" class="swiper-slide slider-frend">
+                <img src="img/Group-26.jpg" alt="Логотип партнеров" class="slide-7 slider--projects">
+              </a>
+              <a href="#" class="swiper-slide slider-frend">
+                <img src="img/Group-59.jpg" alt="Логотип партнеров" class="slide-8 slider--projects">
+              </a>
+              <a href="#" class="swiper-slide slider-frend">
+                <img src="img/Group-27.jpg" alt="Логотип партнеров" class="slide-9 slider--projects">
+              </a>
+            </div>
+          </div>
+          <svg class="switch__arrow switch__arrow--left swiper-button-prev-projects swiper-button-new projects__switch" tabindex="0" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="svg-circle" d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z" fill="#ececec"/>
+            <path class="svg-outline" d="M15 30C6.71573 30 8.89561e-07 23.2843 1.25168e-06 15C1.61379e-06 6.71573 6.71573 -1.01779e-06 15 -6.55671e-07C23.2843 -2.93554e-07 30 6.71573 30 15C30 23.2843 23.2843 30 15 30Z" stroke="transparent"/>
+            <path class="svg-arrow" d="M16 20L11 15L16 10" stroke="black"/>
+          </svg>
+          <svg class="switch__arrow switch__arrow--right swiper-button-next-projects swiper-button-new projects__switch" tabindex="0" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="svg-circle" d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z" fill="#ececec"/>
+            <path class="svg-outline" d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 -1.01779e-06 15 -6.55671e-07C6.71573 -2.93554e-07 2.93554e-07 6.71573 6.55671e-07 15C1.01779e-06 23.2843 6.71573 30 15 30Z" stroke="transparent"/>
+            <path class="svg-arrow" d="M14 20L19 15L14 10" stroke="black"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <h2 class="reset caption-2 contacts__caption-2">Контакты</h2>
+        <div class="box-contacts">
+          <h3 class="reset caption-3 box-contacts__caption-3">Шоурум №4</h3>
+          <address class="box-contacts__adres">Леонтьевский переулок, дом 5/1</address>
+          <form action="mail.php" method="POST" enctype="multipart/form-data" class="box-contacts__form js-form form">
+            <input type="hidden" name="admin_email[]" value="krasnodar110@gmail.com">
+            <input type="hidden" name="form_subject" value="Форма обратной связи с курсового проекта">
+            <h3 class="reset form__titl">Заказать обратный звонок</h3>
+            <label class="form-label" for="form-name">
+              <input id="form-name" class="form__input" type="text" data-validate-field="name" name="name" placeholder="Имя*">
+            </label>
+            <label class="form-label" for="form-phone">
+              <input id="form-phone" class="form__input" type="tel" data-validate-field="tel" name="phone" placeholder="Телефон*">
+            </label>
+            <button type="submit" class="reset form__button buttom">Заказать</button>
+            <div class="thanks-popup">
+              <div class="thanks-popup__container">
+                <span class="thanks-popup__text">Спасибо, заявка отправлена, вам перезвонить ближайший освободившийся оператор</span>
+                <button class="thanks-popup__btn button">Ок</button>
+              </div>
+            </div>
+          </form>
+          <h3 class="reset contacts__titl caption-3">Связаться в один клик</h3>
+          <div class="social-network">
+            <a href="#" class="social-network__icon social-network__icon--whatsapp"></a>
+            <a href="#" class="social-network__icon social-network__icon--telegram"></a>
+          </div>
+        </div>
+      </div>
+      <div class="contacts__windows">
+        <div class="contacts__left"></div>
+        <div id="map" class="contacts__right map"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <img src="icon/Лого.svg" alt="Blanchard художественная галерея" class="logo footer__logo">
+      <ul class="footer__list list reset">
+        <li class="footer__item">
+          <a href="#" class="footer__icon">
+            <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="bg-icon" d="M22.6983 0C10.1628 0 0 10.1623 0 22.6983C0 35.2343 10.1628 45.3966 22.6983 45.3966C35.2338 45.3966 45.3966 35.2343 45.3966 22.6983C45.3966 10.1623 35.2338 0 22.6983 0ZM34.2121 25.1532C35.27 26.1865 36.3893 27.159 37.339 28.2991C37.7598 28.8035 38.1564 29.325 38.4582 29.9116C38.8892 30.748 38.5 31.6652 37.7514 31.7149L33.1012 31.714C31.9002 31.8134 30.9445 31.329 30.1387 30.5079C29.4955 29.8535 28.8987 29.1546 28.2792 28.4779C28.0261 28.2002 27.7595 27.9388 27.4418 27.733C26.8079 27.3206 26.2571 27.4469 25.8939 28.1092C25.5238 28.7831 25.4393 29.5298 25.404 30.2799C25.3534 31.3764 25.0227 31.6629 23.9225 31.7145C21.5716 31.8245 19.341 31.4679 17.2679 30.2827C15.439 29.2373 14.0235 27.7618 12.79 26.0913C10.388 22.8348 8.54849 19.2607 6.89564 15.5839C6.52364 14.7559 6.79579 14.3128 7.70929 14.2956C9.227 14.2664 10.7447 14.2701 12.2624 14.2942C12.8801 14.304 13.2888 14.6574 13.5261 15.2403C14.3463 17.2581 15.3517 19.178 16.6117 20.9586C16.9474 21.4328 17.2902 21.9055 17.7783 22.2404C18.317 22.6101 18.7275 22.4879 18.9816 21.8865C19.1441 21.5043 19.2143 21.0956 19.2495 20.686C19.3703 19.283 19.3847 17.8805 19.1757 16.483C19.0457 15.6085 18.5539 15.0438 17.6821 14.8785C17.2382 14.7944 17.3032 14.63 17.5191 14.3764C17.8939 13.938 18.245 13.6668 18.9468 13.6668L24.2007 13.6659C25.0287 13.8284 25.2145 14.2 25.3269 15.0341L25.3315 20.8727C25.3218 21.1954 25.4936 22.1521 26.0732 22.3635C26.5376 22.5167 26.8441 22.1442 27.1219 21.8503C28.3818 20.5132 29.2795 18.9351 30.0834 17.3018C30.4382 16.5815 30.7443 15.8361 31.0415 15.0893C31.2626 14.5371 31.6062 14.2654 32.2295 14.2747L37.2888 14.2808C37.4379 14.2808 37.5893 14.2822 37.737 14.3077C38.5897 14.4535 38.8233 14.8204 38.5595 15.6522C38.1443 16.9591 37.3376 18.0476 36.549 19.139C35.7038 20.3075 34.8024 21.4351 33.9655 22.6087C33.1964 23.6815 33.2572 24.2216 34.2121 25.1532Z" fill="#CACACA"/>
+            </svg>              
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__icon">
+            <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path class="bg-icon" d="M18.7503 22.6981C18.7503 25.0976 20.6954 27.0427 23.0949 27.0427C25.4944 27.0427 27.4395 25.0976 27.4395 22.6981C27.4395 20.2986 25.4944 18.3535 23.0949 18.3535C20.6954 18.3535 18.7503 20.2986 18.7503 22.6981Z" fill="#CACACA"/>
+                <path class="bg-icon" d="M12.9345 15.0115C13.1433 14.4456 13.4765 13.9333 13.9095 13.5129C14.3299 13.0799 14.8418 12.7467 15.4081 12.5379C15.8674 12.3595 16.5573 12.1472 17.8281 12.0894C19.2027 12.0267 19.6149 12.0132 23.095 12.0132C26.5754 12.0132 26.9876 12.0263 28.3619 12.089C29.6326 12.1472 30.3229 12.3595 30.7818 12.5379C31.3481 12.7467 31.8604 13.0799 32.2805 13.5129C32.7134 13.9333 33.0466 14.4452 33.2558 15.0115C33.4342 15.4708 33.6465 16.1611 33.7043 17.4318C33.767 18.8061 33.7805 19.2183 33.7805 22.6987C33.7805 26.1788 33.767 26.591 33.7043 27.9657C33.6465 29.2364 33.4342 29.9263 33.2558 30.3856C33.0466 30.9519 32.7138 31.4638 32.2808 31.8842C31.8604 32.3172 31.3485 32.6504 30.7822 32.8592C30.3229 33.0379 29.6326 33.2502 28.3619 33.3081C26.9876 33.3708 26.5758 33.3839 23.0953 33.3839C19.6145 33.3839 19.2024 33.3708 17.8284 33.3081C16.5576 33.2502 15.8674 33.0379 15.4081 32.8592C14.2714 32.4207 13.373 31.5223 12.9345 30.3856C12.7561 29.9263 12.5438 29.2364 12.4856 27.9657C12.4229 26.591 12.4098 26.1788 12.4098 22.6987C12.4098 19.2183 12.4229 18.8061 12.4856 17.4318C12.5435 16.1611 12.7558 15.4708 12.9345 15.0115ZM23.095 29.3912C26.7916 29.3912 29.7882 26.395 29.7882 22.6984C29.7882 19.0018 26.7916 16.0055 23.095 16.0055C19.3987 16.0055 16.4021 19.0018 16.4021 22.6984C16.4021 26.395 19.3987 29.3912 23.095 29.3912ZM16.1375 17.305C17.0013 17.305 17.7016 16.6047 17.7016 15.7409C17.7016 14.8771 17.0013 14.1768 16.1375 14.1768C15.2737 14.1768 14.5734 14.8771 14.5734 15.7409C14.5738 16.6047 15.2737 17.305 16.1375 17.305Z" fill="#CACACA"/>
+                <path class="bg-icon" d="M23.0949 0C35.6289 0 45.7932 10.1643 45.7932 22.6983C45.7932 35.2323 35.6289 45.3966 23.0949 45.3966C10.5609 45.3966 0.396618 35.2323 0.396618 22.6983C0.396618 10.1643 10.5609 0 23.0949 0ZM10.1397 28.0719C10.2028 29.4594 10.4234 30.4066 10.7455 31.2358C11.4226 32.9866 12.8066 34.3706 14.5574 35.0477C15.3862 35.3698 16.3338 35.5901 17.721 35.6535C19.1109 35.7168 19.5549 35.7321 23.0946 35.7321C26.6346 35.7321 27.0783 35.7168 28.4685 35.6535C29.8556 35.5901 30.8032 35.3698 31.6321 35.0477C32.5021 34.7204 33.2897 34.2075 33.9408 33.5442C34.6037 32.8934 35.1167 32.1055 35.444 31.2358C35.7661 30.407 35.9867 29.4594 36.0497 28.0722C36.1138 26.682 36.1287 26.238 36.1287 22.6983C36.1287 19.1586 36.1138 18.7146 36.0501 17.3247C35.987 15.9372 35.7668 14.99 35.4447 14.1608C35.1174 13.2911 34.6041 12.5032 33.9408 11.8524C33.29 11.1891 32.5021 10.6762 31.6324 10.3489C30.8032 10.0268 29.856 9.80651 28.4685 9.74313C27.0786 9.67975 26.6346 9.66451 23.0949 9.66451C19.5552 9.66451 19.1112 9.67975 17.7213 9.74348C16.3338 9.80651 15.3866 10.0268 14.5574 10.3485C13.6877 10.6758 12.8998 11.1891 12.2487 11.8524C11.5858 12.5035 11.0725 13.2911 10.7455 14.1608C10.4231 14.99 10.2028 15.9372 10.1394 17.3247C10.076 18.7146 10.0611 19.1586 10.0611 22.6983C10.0611 26.238 10.076 26.682 10.1397 28.0719Z" fill="#CACACA"/>
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="45.3966" height="45.3966" fill="white" transform="matrix(-1 0 0 1 45.7932 0)"/>
+                </clipPath>
+              </defs>
+            </svg>              
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__icon">
+            <svg width="47" height="46" viewBox="0 0 47 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class="bg-icon" d="M23.4915 0.0908203C11.0074 0.0908203 0.793213 10.3233 0.793213 22.9259C0.793213 34.3206 9.10078 43.7782 19.9506 45.4874V29.5348H14.1852V22.9259H19.9506V17.8894C19.9506 12.1692 23.3326 9.02429 28.5305 9.02429C31.0046 9.02429 33.5922 9.45729 33.5922 9.45729V15.0863H30.7322C27.9176 15.0863 27.0324 16.8411 27.0324 18.6414V22.9259H33.3425L32.3211 29.5348H27.0324V45.4874C32.3811 44.6393 37.2516 41.8993 40.7647 37.7619C44.2778 33.6246 46.2019 28.3626 46.1898 22.9259C46.1898 10.3233 35.9755 0.0908203 23.4915 0.0908203Z" fill="#CACACA"/>
+            </svg>              
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/inputmask.min.js"></script>
+  <script src="js/choices.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/simplebar-min.js"></script>
+  <script src="js/just-validate.min.js"></script>
+  <script src="js/json.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/tippy.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/focus-visible.js"></script>
+</body>
+
+</html>
